@@ -10,7 +10,7 @@ showEdit: false
 
 I’m a final year PhD student at the Centre for Research in Animal Behaviour at the University of Exeter, UK under the supervision of Lauren Brent and Dan Franks. My academic interests are in using data science to understand complex systems. Specific areas of interest include Bayesian statistics, causal inference, philosophy of science, and deep learning.
 
-To see a full list of my publications, check out my [Google Scholar](https://scholar.google.co.uk/citations?user=Ymc2m2EAAAAJ&hl=en) profile.
+To see a complete list of my publications, check out my [Google Scholar](https://scholar.google.co.uk/citations?user=Ymc2m2EAAAAJ&hl=en) profile.
 
 I have previously worked in NLP projects, and am interested in bringing these ideas to my future work. I hold a master’s degree in Mathematics from the University of York, UK.
 
