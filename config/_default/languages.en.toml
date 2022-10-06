@@ -14,8 +14,8 @@ dateFormat = "2 January 2006"
 
 [author]
 name = "Jordan Hart"
-  image = "img/profile.jpeg"
-headline = "Researcher, Data Scientist, Consultant"
+  image = "img/profile.jpg"
+headline = "Researcher | Data Scientist"
   # bio = "A little bit about you"
   links = [
   #   { link = "https://link-to-some-website.com/" },
@@ -38,10 +38,8 @@ headline = "Researcher, Data Scientist, Consultant"
   #   { kickstarter = "https://www.kickstarter.com/profile/username" },
   #   { lastfm = "https://lastfm.com/user/username" },
   { linkedin = "https://www.linkedin.com/in/jordan-hart-92b13b85" },
-  #   { mastodon = "https://mastodon.instance/@username" },
-  #   { medium = "https://medium.com/username" },
-  #   { microsoft = "https://www.microsoft.com/" },
-  #   { orcid = "https://orcid.org/userid" },
+  { orcid = "https://orcid.org/0000-0002-4636-0760" },
+  { google-scholar = "https://scholar.google.co.uk/citations?user=Ymc2m2EAAAAJ&hl=en" },
   #   { patreon = "https://www.patreon.com/username" },
   #   { pinterest = "https://pinterest.com/username" },
   #   { reddit = "https://reddit.com/user/username" },
