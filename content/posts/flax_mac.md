@@ -9,7 +9,7 @@ weight: 60
 
 ```
 pip install --upgrade pip
-pip -r install flax-requirements.txt
+pip install -r flax-requirements.txt
 ```
 
 And that should (hopefully) do it.
