@@ -2,10 +2,8 @@
 title: "The Problem with Permutations"
 date: 2022-03-12T12:00:00+01:00
 draft: false
+weight: 20
 ---
-{{< katex >}}
-
-
 This is a short blog post to complement our [paper](https://www.biorxiv.org/content/10.1101/2021.06.04.447124v2)  on non-independence and permutation tests in animal social network analysis. We submitted the paper to a journal last year and had some pretty mixed feedback. We feel there's a lot to unpack in our paper, so to make things more manageable we wanted to release a blog post to coincide with our resubmission to explain again the issues we cover in our paper in bite-sized chunks.
 
 

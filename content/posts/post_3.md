@@ -3,7 +3,6 @@ title: "Statistical Conundrums in Network Analysis"
 date: 2022-02-09T12:00:00+01:00
 draft: true
 ---
-{{< katex >}}
 In behavioural ecology, animal social networks are used to answer a wide variety of questions. However, unlike in the analysis of human social networks, we can’t ask animals what their social preferences are. Instead we have to estimate them based on observable events like spatial associations or interactions. This means we can never be fully certain in the estimated social preferences, and if very few observations are made, it is possible that the estimated social preferences could be quite inaccurate. We recently wrote a paper to tackle some of these issues [1].
 
 ## Binary and Count Data

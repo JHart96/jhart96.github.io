@@ -2,8 +2,10 @@
 title: "How Accurate are Inferred Social Networks?"
 date: 2021-08-08T12:00:00+01:00
 draft: false
+weight: 10
 ---
 {{< katex >}}
+
 In behavioural ecology, animal social networks are used to answer a wide variety of questions. However, unlike in the analysis of human social networks, we can’t ask animals what their social preferences are. Instead we have to estimate them based on observable events like spatial associations or interactions. This means we can never be fully certain in the estimated social preferences, and if very few observations are made, it is possible that the estimated social preferences could be quite inaccurate. We recently wrote a [paper](https://doi.org/10.5281/zenodo.4903396) to tackle some of these issues.
 
 ## Binary and Count Data
