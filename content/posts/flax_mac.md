@@ -26,7 +26,7 @@ My 10 core M1 Pro ran 10 epochs in *3 minutes and 3 seconds*, where the Colab GP
 
 ## PyMC & BlackJAX
 
-Another reason you might want to use JAX is for probabilistic programming in PyMC. Using a JAX-based backend (BlackJAX) it's possible to speed up model compilation and fitting quite considerably. I also ran a quick comparison using a simple linear regression with 2000 data points to test sampling and compilation times in PyMC and cmdstan. I ran each model 5 times and took the lowest number for both sampling time and end-to-end time, including compilation.
+Another reason you might want to use JAX is for probabilistic programming in PyMC. Using a JAX-based backend ([BlackJAX](https://blackjax-devs.github.io/blackjax/)) it's possible to speed up model compilation and fitting quite considerably. I also ran a quick comparison using a [simple linear regression](https://www.pymc.io/projects/docs/en/stable/learn/core_notebooks/GLM_linear.html) with 2000 data points to test sampling and compilation times in PyMC and CmdStan. I ran each model 5 times and took the lowest number for both sampling time and end-to-end time, including compilation.
 
 | Sampler      | Sampling Time | End-to-end Time |
 | ----------- | ------------ | --- |
