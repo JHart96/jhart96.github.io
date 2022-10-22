@@ -23,3 +23,16 @@ Out of curiosity I ran a quick test using a [CNN on MNIST](https://flax.readthed
 | Colab CPU | ~ 20m |
 
 My 10 core M1 Pro ran 10 epochs in *3 minutes and 3 seconds*, where the Colab GPU took only *1 minute and 7 seconds*. Though nearly 3x slower, I don't think this is too bad for a CPU, and will be great for development environments. This story might change a lot depending on batch sizes and workloads, so take this with a pinch of salt. For reference though, a Colab CPU took around 20 minutes to run the same code, so the M1 CPU is certainly doing something right.
+
+## PyMC & BlackJAX
+
+Another reason you might want to use JAX is for probabilistic programming in PyMC. Using a JAX-based backend (BlackJAX) it's possible to speed up model compilation and fitting quite considerably. I also ran a quick comparison using a simple linear regression with 2000 data points to test sampling and compilation times in PyMC and cmdstan. I ran each model 5 times and took the lowest number for both sampling time and end-to-end time, including compilation.
+
+| Sampler      | Sampling Time | End-to-end Time |
+| ----------- | ------------ | --- |
+| CmdStan 2.30.0 | 1.1s | 6.7s |
+| PyMC 4.2.2 | 9.0s | 10.9s |
+| PyMC 4.2.2 + BlackJAX | 2.8s | 3.6s |
+| PyMC 4.2.2 + NumPyro | 1.8s | 2.8s |
+
+Interestingly, base PyMC was slowest in both cases, but benefitted a lot from using the BlackJAX and NumPyro backends. The CmdStan sampler was fastest, but takes a while longer to compile meaning the end-to-end time was slower. This benchmark is far from exhaustive, and depending on model specification and dataset size, I suspect these results could change a lot.
