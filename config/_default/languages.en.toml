@@ -7,7 +7,7 @@ rtl = false
 
 title = "Jordan Hart"
 # logo = "img/logo.jpg"
-# description = "Jordan Hart - Researcher, Data Scientist, Consultant"
+# description = "Jordan Hart"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 dateFormat = "2 January 2006"
@@ -15,7 +15,7 @@ dateFormat = "2 January 2006"
 [author]
 name = "Jordan Hart"
   image = "img/profile.jpg"
-headline = "Researcher | Data Scientist"
+headline = "CTO @ Causa"
   # bio = "A little bit about you"
   links = [
   #   { link = "https://link-to-some-website.com/" },
