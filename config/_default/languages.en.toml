@@ -1,16 +1,17 @@
 languageCode = "en"
 languageName = "English"
-displayName = "EN"
-isoCode = "en"
 weight = 1
-rtl = false
 
 title = "Jordan Hart"
 # logo = "img/logo.jpg"
 # description = "Jordan Hart"
 # copyright = "Copy, _right?_ :thinking_face:"
 
+[languages.en.params]
+isoCode = "en"
 dateFormat = "2 January 2006"
+rtl = false
+displayName = "EN"
 
 [author]
 name = "Jordan Hart"
